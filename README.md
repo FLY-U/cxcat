@@ -22,7 +22,7 @@ https://github.com/webzol/kit
 
 # 首页摘要展示
 
-![首页文章摘要](http://pddtif2jb.bkt.clouddn.com/wp-content/uploads/2018/08/2018082402315218.jpg?imageView2/1/w/900/h/450#)
+![首页文章摘要](http://pddtif2jb.bkt.clouddn.com/wp-content/uploads/2018/08/201808240233566.jpg?imageView2/2/w/1024#)
 
 # 为了让小白新手更好的使用小程序，以下由晗绪小童学做了详细的教程 
 https://www.kancloud.cn/hnxeguo/wpforwx
