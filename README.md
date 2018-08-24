@@ -19,6 +19,11 @@ https://github.com/webzol/kit
 2.需要完美的展示还需要修改后台的插件，需要的加我微信我发我的给你。
 
 3.微信号:83874696
+
+# 首页摘要展示
+
+![首页文章摘要](http://pddtif2jb.bkt.clouddn.com/wp-content/uploads/2018/08/2018082402315218.jpg?imageView2/1/w/900/h/450#)
+
 # 为了让小白新手更好的使用小程序，以下由晗绪小童学做了详细的教程 
 https://www.kancloud.cn/hnxeguo/wpforwx
 
