@@ -14,7 +14,13 @@
   margin: 0 !important;
   box-shadow: 1px 1px 6px #ecf0f0;
 }
-
+.list-content {
+    font-size: 14px;
+    color: rgba(0,0,0,0.44);
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
 .search-button icon {
   position: absolute;
   margin-top:20rpx;

@@ -42,7 +42,9 @@
             <image class="food-icon" src="{{item.content_first_image}}" mode="aspectFill"></image>
             <view class="food-bg"></view>
           </view>
-          <!-- 文章时间 -->
+        <!-- 文章摘要 -->
+         <view class="list-content">{{item.excerpt.rendered}}.......</view>
+        <!-- 文章时间 -->
           <view class="food-desc">
               <view class="entry-date">
                 <image src="../../images/calendar.png" style="height:24rpx;width:24rpx;"></image>
@@ -65,4 +67,5 @@
     </view>
   </view>
   </view>
-  <view class='loading-tip' hidden='{{isTip}}'><image src='../../images/WS.gif'></image></view>
+  <!-- <view class='loading-tip' hidden='{{isTip}}'><image src='../../images/WS.gif'></image></view> -->
+  

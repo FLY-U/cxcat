@@ -81,7 +81,6 @@ Page({
     
   },
   onReachBottom: function () {  
-
       var self = this;
       if (!self.data.isLastPage) {
           self.setData({
@@ -93,20 +92,16 @@ Page({
       else {
           console.log('最后一页');
       }
-   
   },
   onLoad: function (options) {
     var self = this; 
     this.fetchTopFivePosts();
     self.setData({
         topNav: config.getIndexNav
-
     });
-       
   },
   onShow: function (options){
       wx.setStorageSync('openLinkCount', 0);
-
   },  
   fetchTopFivePosts: function () {
     var self = this;
@@ -139,15 +134,11 @@ Page({
                     displaySwiper: "none",
                     displayHeader: "block",
                     showallDisplay: "block",
-
                 });
-                
             }
-     
     })
         .then(response=>{
             self.fetchPostsData(self.data);
-
         })
         .catch(function (response){
             console.log(response); 
@@ -200,7 +191,6 @@ Page({
                         else {
                             item.categoryImage = "";
                         }
-
                         if (item.post_thumbnail_image == null || item.post_thumbnail_image == '') {
                             item.post_thumbnail_image = "../../images/logo700.png";
                         }
